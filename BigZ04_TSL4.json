@@ -1,0 +1,69 @@
+{
+  "strategy_name": "BigZ04_TSL4",
+  "params": {
+    "roi": {
+      "0": 100.0
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.01,
+      "trailing_stop_positive_offset": 0.025,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_bb20_close_bblowerband_safe_1": 0.989,
+      "buy_bb20_close_bblowerband_safe_2": 0.98,
+      "buy_condition_0_enable": true,
+      "buy_condition_10_enable": true,
+      "buy_condition_11_enable": true,
+      "buy_condition_12_enable": true,
+      "buy_condition_13_enable": false,
+      "buy_condition_1_enable": true,
+      "buy_condition_2_enable": true,
+      "buy_condition_3_enable": true,
+      "buy_condition_4_enable": true,
+      "buy_condition_5_enable": true,
+      "buy_condition_6_enable": true,
+      "buy_condition_7_enable": true,
+      "buy_condition_8_enable": true,
+      "buy_condition_9_enable": true,
+      "buy_dip_0": 1.024,
+      "buy_macd_1": 0.02,
+      "buy_macd_2": 0.03,
+      "buy_rsi_0": 30.0,
+      "buy_rsi_1h_0": 71.0,
+      "buy_rsi_1h_1": 16.5,
+      "buy_rsi_1h_1a": 69.0,
+      "buy_rsi_1h_2": 15.0,
+      "buy_rsi_1h_4": 35.0,
+      "buy_rsi_1h_5": 39.0,
+      "buy_rsi_2": 10.0,
+      "buy_rsi_3": 14.2,
+      "buy_volume_drop_1": 3.8,
+      "buy_volume_drop_2": 3,
+      "buy_volume_drop_3": 2.7,
+      "buy_volume_pump_1": 0.4,
+      "buy_rsi_1": 16.1,
+      "buy_rsi_1h_3": 37.5
+    },
+    "sell": {
+      "base_nb_candles_sell": 49,
+      "high_offset": 1.006,
+      "narrow_stop": 1.02,
+      "pHSL": -0.08,
+      "pPF_1": 0.016,
+      "pPF_2": 0.08,
+      "pSL_1": 0.011,
+      "pSL_2": 0.04,
+      "rsi_1h_val": 32,
+      "trade_time": 35,
+      "wide_stop": 1.035
+    },
+    "protection": {},
+    "stoploss": {
+      "stoploss": -0.026
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-02-14 21:01:08.464126+00:00"
+}
